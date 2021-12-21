@@ -1,7 +1,7 @@
 {
     "name": "Paladin Log4j Immunizer",
     "description": "Protection against log4j websocket attacks by disabling websockets to localhost and private IPs.",
-    "version": "1.0",
+    "version": "1.0.0",
     "manifest_version": 2,
     "author": "Paladin Cyber",
     "background": {
@@ -19,7 +19,7 @@
           "48": "images/logo48.png",
           "128": "images/logo128.png"
         },
-        "default_title": "Stopping websocket connections against localhost and private IPs unless initiator matches host."
+        "default_title": "Stopping websocket connections against localhost and private IPs."
       },
     "icons": {
         "16": "images/browser-signedin16.png",

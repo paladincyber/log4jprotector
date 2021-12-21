@@ -1,6 +1,6 @@
 # Log4J Immunizer
 
-Browser extension to prevent Log4J exploits against services running on private network and localhost.
+Browser extension to prevent Log4J exploits via websocket against services running on private network and localhost. This extension will disable connections over websocket to localhost and private IP addresses unless the initiator is also localhost or a private IP. This should harden your browser against drive-by websites, phishing landing pages, malicous HTML attachments and malicious ads that seek to use your browser as a beachhead for launching Log4J exploits against your company's internal web applicationsa.
 
 ## How to install
 

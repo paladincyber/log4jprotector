@@ -26,12 +26,14 @@ function requestProtection(
   return {};
 }
 
-let hasListener = chrome.webRequest.onBeforeRequest.hasListener(requestProtection);
 
 function main() {
+    const hasListener = chrome.webRequest.onBeforeRequest.hasListener(requestProtection);
     if (!hasListener) {
-            chrome.webRequest.onBeforeRequest.addListener(requestProtection, { urls: ['<all_urls>'] }, ['blocking']);
-    }    
+        chrome.webRequest.onBeforeRequest.addListener(requestProtection, { urls: ['<all_urls>'] }, ['blocking']);
+        console.log('Webrequest listener added');
+        console.log('Paladin Log4J Immunizer Initialized!');
+    }
 }
 
 // Ensure we register listener on install
