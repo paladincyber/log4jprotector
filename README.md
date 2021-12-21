@@ -25,8 +25,8 @@ Submitted 12/20/2021, will update link when available.
 1. Clone this repo via git
 2. Install dependencies with `npm ci`
 3. Build typescript to Javascript with `npm run build`
-4. Install this extension in developer mode by 
+4. Install this extension in developer mode by pointing your browser to the `manifest.json` file in the top level directory.
 
 ## License
 
-See `/LICENSE`.
+See `/LICENSE`
