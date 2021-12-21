@@ -2,7 +2,7 @@
   "name": "paladin-log4j-immunizer",
   "version": "1.0.0",
   "description": "Paladin protection against log4j websocket attacks.", 
-  "license": "GPLv3",
+  "license": "AGPL-3.0-or-later",
   "repository": {
     "repository": "github:paladincyber/log4jprotector"
   },
