@@ -1,0 +1,21 @@
+{
+  "name": "paladin-log4j-immunizer",
+  "version": "1.0.0",
+  "description": "Paladin protection against log4j websocket attacks.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && mkdir -p build/tsc && npx tsc && npx browserify build/tsc/background.js -o build/tsc/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paladin Cyber",
+  "dependencies": {
+    "@types/chrome": "^0.0.171",
+    "ip": "^1.1.5",
+    "tsify": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/ip": "^1.1.0",
+    "browserify": "^17.0.0",
+    "typescript": "^4.5.4"
+  }
+}
