@@ -24,6 +24,8 @@ Submitted 12/20/2021, will update with link when available.
 
 #### Building from source
 
+Git source: https://github.com/paladincyber/log4jprotector
+
 1. Clone this repo via git
 2. Install dependencies with `npm ci`
 3. Build typescript to Javascript with `npm run build`
