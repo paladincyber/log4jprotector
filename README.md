@@ -12,15 +12,15 @@ We have submitted this extension to the Chrome, Edge and Mozilla stores and will
 
 #### Chrome
 
-Submitted 12/20/2021, will update link when available.
+Submitted 12/20/2021, will update with link when available.
 
 #### Edge
 
-Submitted 12/20/2021, will update link when available.
+Submitted 12/20/2021, will update with link when available.
 
 #### Mozilla
 
-Submitted 12/20/2021, will update link when available.
+Submitted 12/20/2021, will update with link when available.
 
 #### Building from source
 
