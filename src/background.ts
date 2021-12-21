@@ -7,18 +7,19 @@ function requestProtection(
 ): { redirectUrl?: string, cancel?: boolean } {
     // Remove query parameters so we don't trigger on search engines
     const thisURL = new URL(details.url);
+
     // We want to disable websocket connections to localhost and private IPs
     // Kill all local and private IP traffic unless the initator is on the private network
-
+    const initiator = details.initiator || (details as any).originUrl; // Allow for both firefox and chrome
     if (['wss:', 'ws:'].includes(thisURL.protocol) 
-        && details.initiator 
-        && details.initiator !== 'null') {
-        const thisInitiator = new URL(details.initiator);
+        && initiator 
+        && initiator !== 'null') {
+        const thisInitiator = new URL(initiator);
 
         const hostnamePrivate = isPrivate(thisURL.hostname) || thisURL.hostname === 'localhost';
         const initiatorPrivate = isPrivate(thisInitiator.hostname) || thisInitiator.hostname === 'localhost';
         if ( hostnamePrivate && !initiatorPrivate) {
-            console.log('Blocked ', thisInitiator.origin, ' from accessing websockets on ', thisURL.origin);
+            console.log('Blocked', thisInitiator.href, 'from accessing websockets on', thisURL.origin);
             return { cancel: true };
         }
   }
