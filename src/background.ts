@@ -5,7 +5,6 @@ import { isPrivate } from 'ip';
 function requestProtection(
     details : chrome.webRequest.WebRequestBodyDetails
 ): { redirectUrl?: string, cancel?: boolean } {
-    // Remove query parameters so we don't trigger on search engines
     const thisURL = new URL(details.url);
 
     // We want to disable websocket connections to localhost and private IPs
