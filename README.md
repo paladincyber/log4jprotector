@@ -2,7 +2,7 @@
 
 Browser extension to prevent Log4J exploits via WebSocket against services running on private network and localhost. This extension will disable connections over WebSocket to localhost and private IP addresses unless the initiator is also localhost or a private IP. This should harden your browser against drive-by websites, phishing landing pages, malicious HTML attachments and malicious ads that seek to use your browser as a beachhead for launching Log4J exploits against your company's internal web applications.
 
-This protection is already included in the XSS feature for our paid Paladin Shield users. However, due to the severity of Log4j vulnerability (CVE-2021-44228) and how it can now be exploited by drive-by websites, phishing landing pages, malicious HTML attachments and malicious ads via WebSockets, we believed the right thing to do is to release this protection as open source and allow anyone to defend themselves against the WebSocket variant of the Log4j exploit.
+This protection is already included in the XSS defense feature for our paid Paladin Shield users. However, due to the severity of Log4j vulnerability (CVE-2021-44228) and how it can now be exploited by drive-by websites, phishing landing pages, malicious HTML attachments and malicious ads via WebSockets, we believed the right thing to do is to release this protection as open source and allow anyone to defend themselves against the WebSocket variant of the Log4j exploit.
 
 ## How to install
 
