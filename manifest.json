@@ -1,5 +1,5 @@
 {
-    "name": "WebSocket Log4j Exploit Immunizer by Paladin Cyber",
+    "name": "Paladin Log4j Exploit Immunizer",
     "description": "Protection against log4j websocket attacks by disabling websockets to localhost and private IPs.",
     "version": "1.0.0",
     "manifest_version": 2,

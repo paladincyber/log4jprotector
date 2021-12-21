@@ -20,7 +20,7 @@ Submitted 12/20/2021, will update with link when available.
 
 #### Mozilla
 
-Submitted 12/20/2021, will update with link when available.
+https://addons.mozilla.org/en-US/firefox/addon/paladin-log4j-immunizer/
 
 #### Building from source
 
