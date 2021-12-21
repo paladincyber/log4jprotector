@@ -1,10 +1,15 @@
 {
   "name": "paladin-log4j-immunizer",
   "version": "1.0.0",
-  "description": "Paladin protection against log4j websocket attacks.",
+  "description": "Paladin protection against log4j websocket attacks.", 
+  "license": "GPLv3",
+  "repository": {
+    "repository": "github:paladincyber/log4jprotector"
+  },
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && mkdir -p build/tsc && npx tsc && npx browserify build/tsc/background.js -o build/tsc/bundle.js",
+    "package": "zip log4jprotector.zip build/tsc/bundle.js manifest.json LICENSE images/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paladin Cyber",

@@ -25,8 +25,9 @@ Submitted 12/20/2021, will update link when available.
 1. Clone this repo via git
 2. Install dependencies with `npm ci`
 3. Build typescript to Javascript with `npm run build`
-4. Install this extension in developer mode by pointing your browser to the `manifest.json` file in the top level directory.
+4. Package the extension with `npm run package`
+5. Unpackage `./log4jprotector.zip` and target load the extension to the browser of your choice from the unpacked directory.
 
 ## License
 
-See `/LICENSE`
+See `./LICENSE`
