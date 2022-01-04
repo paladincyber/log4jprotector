@@ -12,7 +12,7 @@ We have submitted this extension to the Chrome, Edge and Mozilla stores and will
 
 #### Chrome
 
-Submitted 12/20/2021, will update with link when available.
+https://chrome.google.com/webstore/detail/paladin-log4j-immunizer/cgchdoiodokgmeinkajmedagmpdadigd
 
 #### Edge
 
