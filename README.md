@@ -16,7 +16,7 @@ https://chrome.google.com/webstore/detail/paladin-log4j-immunizer/cgchdoiodokgme
 
 #### Edge
 
-Submitted 12/20/2021, will update with link when available.
+https://microsoftedge.microsoft.com/addons/detail/paladin-log4j-exploit-imm/hicjmianklbomnelheicgapfccpoeajd
 
 #### Mozilla
 
